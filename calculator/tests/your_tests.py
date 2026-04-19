@@ -4,6 +4,8 @@ from calculator_adapter import run
 
 ### ADD AT LEAST TWO TESTS HERE!
 
+print("TEST RUN: custom tests")
+
 def test_addition():
         result = run("2 + 3")
         assert "5" in str(result)
